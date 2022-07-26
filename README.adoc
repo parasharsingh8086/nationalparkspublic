@@ -23,7 +23,7 @@ oc new-app https://github.com/openshift-roadshow/nationalparks.git
 oc create -f ./ose3/application-template.json
 oc new-app nationalparks
 ----
-
+test
 There's some options that can be parameterized:
 
 * APPLICATION_NAME: Name of the application
